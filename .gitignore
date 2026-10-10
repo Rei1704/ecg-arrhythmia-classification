@@ -1,0 +1,28 @@
+# Virtual environments
+heartnet-env/
+venv/
+env/
+.venv/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Generated data files (download/run pipeline to reproduce)
+data/mitbih/
+data/*.npy
+
+# Debug/temporary output files
+run_output.txt
+run_error.txt
+test_out.txt
+test_err.txt
+*.log
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
